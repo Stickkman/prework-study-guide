@@ -13,6 +13,9 @@
     <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+
+        <h2>✨ Open the Console to See What's Happening ✨</h2>
+
     </header>
     <main>
         <section class="card" id="html-section">
@@ -85,7 +88,13 @@
               <li>'git pull origin main' - *in case local directory is not up to date with github*</li>
             </ul>
             <li>Always remember to create a new branch off of the main branch before adding or editing code.</li>
-            
+            <li> Basic Workflow process:</li>
+            <ul>
+              <li>Create a branch from most recent version of the main branch.</li>
+              <li>Add commits including brief text describing what was done.</li>
+              <li>Open PR, short for Pull Request, content changes are reviewed by team.</li>
+              <li>Merge and Deploy, content changes are approved and publish.</li>
+            </ul>
           </ul>
         </section>
 
@@ -94,7 +103,32 @@
 
           <h2>JAVASCRIPT</h2>
           <ul>
-            <li>--------ADD MORE NOTES HERE--------</li>
+            <li>Dynamic high level programming language that allows users to interact with websites.  Uses include adding effects, interactivity, highlighting clickable items, etc.</li>
+            <li>A variable is a named container that allows us to store data in our code.</li>
+            <li>Variables in JavaScript are not directly associated with any particular value type, any variable can be assigned and re-assigned values.  Example:</li>
+            <ul>
+              <li>foo = 42 // foo is now a number.</li>
+              <li>foo = "hello" // foo is now a string.</li>
+              <li>foo = true; // foo is now a boolean.</li>
+            </ul>
+            <li>An array is a single variable that is used to hold a group of data, typically related.  Can store different types of data at once.</li>
+            <li>To work with individual items inside an array, we need to have the location within the array, referred to as an index.</li>
+            <li>The first item in any array has an index of '0' rather than '1'.</li>
+            <li>We can find the length of an array by using it's built-in ''.length' property added to the end of the array's name.  Useful for 'for' loops.</li>
+            <li> A 'for' loop contains 3 important statements:</li>
+            <ul>
+              <li>The first determines the starting point for our loop.</li>
+              <li>The second is the condition that keeps the loop running.</li>
+              <li>The third allows the array to iterate over each item.  Using 'x++' is an example of this to add 1 to a variable of x to keep count. </li>
+            </ul>
+            <li>The .js file must be linked in the html file near the bottom of the page, because you want the elements it will be manipulating to load first.</li>
+            <li>We can comment out multiple lines of code opening with '/*' and ending with '*/'.  // can be used for a single line.</li>
+            <li>Control flow is the order in which a computer executes code in a script.</li>
+            <li>Code flows from top to bottom in JavaScript.</li>
+            <li>JavaScript is CASE SENSITIVE, ex. 'myVariable' does not equal 'myvariable'</li>
+            <li>A function is a set of instructions that tells the computer how to perform a certain task.  Useful for code we want to reuse.</li>
+            <li>Functions do not execute automatically, they must be called by their unique name.</li>
+            <li>Chrome DevTools is useful when debugging, can be accessed by right clicking > inspect > console.  Also with CTRL+SHIFT+I. </li>
           </ul>
         </section>
 
@@ -103,5 +137,8 @@
     <footer>
       <p>I can code!</p>
     </footer>
+
+        <script src="./assets/script.js"></script>
+
   </body>
 </html>
